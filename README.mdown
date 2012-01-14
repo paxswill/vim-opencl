@@ -1,0 +1,7 @@
+Vim syntax highlighting for OpenCL. The script currently supports
+both the OpenCL runtime functions and the OpenCL language.
+
+By default, it only highlights with the `.cl` extension, but if
+you want all C files to be highlighted, you can set them like so
+
+    autocmd BufRead,BufNewFile *.h,*.c setfiletype opencl
